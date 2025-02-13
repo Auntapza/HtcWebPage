@@ -1,5 +1,11 @@
 import React from 'react';
 
+import somsak from '../../public/Screenshot 2025-02-13 100252.png'
+import ruchda from '../../public/Screenshot 2025-02-13 100335.png'
+import sunya from '../../public/Screenshot 2025-02-13 100419.png'
+import charin from '../../public/Screenshot 2025-02-13 100517.png'
+import amunya from '../../public/Screenshot 2025-02-13 100543.png'
+
 interface Administrator {
   id: number;
   name: string;
@@ -38,7 +44,7 @@ const AdminPage: React.FC = () => {
     position: "ผู้อำนวยการ",
     email: "somsak.teep19@gmail.com",
     department: "วิทยาลัยเทคนิคหาดใหญ่",
-    image: "../../public/Screenshot 2025-02-13 100252.png"
+    image: somsak
   };
 
   const deputyAdmins: Administrator[] = [
@@ -48,7 +54,7 @@ const AdminPage: React.FC = () => {
       position: "รองผู้อำนวยการ",
       department: "ฝ่ายแผนงานและความร่วมมือ",
       email: "Pat-yo@hotmail.com",
-      image: "../../public/Screenshot 2025-02-13 100335.png"
+      image: ruchda
     },
     {
       id: 3,
@@ -56,7 +62,7 @@ const AdminPage: React.FC = () => {
       position: "รองผู้อำนวยการ",
       department: "ฝ่ายบริหารทรัพยากร",
       email: "Khayaiwong@gmail.com",
-      image: "../../public/Screenshot 2025-02-13 100419.png"
+      image: sunya
     },
     {
       id: 4,
@@ -64,7 +70,7 @@ const AdminPage: React.FC = () => {
       position: "รองผู้อำนวยการ",
       department: "ฝ่ายพัฒนาการศึกษา",
       email: "Charin6493@gmail.com",
-      image: "../../public/Screenshot 2025-02-13 100517.png"
+      image: charin
     },
     {
       id: 5,
@@ -72,7 +78,7 @@ const AdminPage: React.FC = () => {
       position: "รองผู้อำนวยการ",
       department: "ฝ่ายวิชาการ",
       email: "r.jirawan@hotmail.com",
-      image: "../../public/Screenshot 2025-02-13 100543.png"
+      image: amunya
     }
   ];
 
