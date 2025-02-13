@@ -7,9 +7,9 @@ This is a project for a professional exam.
 
 ## Installation
 
-First you want to install a [Node.js](https://nodejs.org/en)
-
-Next run this code on project directory
+- First you want to install a [Node.js](https://nodejs.org/en)
+- Dowload code on branch main
+- Next run this code on project directory
 
 ```bash
   npm install
