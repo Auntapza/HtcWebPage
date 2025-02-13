@@ -1,10 +1,10 @@
 import React from 'react';
 
-import somsak from '../../public/Screenshot 2025-02-13 100252.png'
-import ruchda from '../../public/Screenshot 2025-02-13 100335.png'
-import sunya from '../../public/Screenshot 2025-02-13 100419.png'
-import charin from '../../public/Screenshot 2025-02-13 100517.png'
-import amunya from '../../public/Screenshot 2025-02-13 100543.png'
+import somsak from '../assets/Screenshot 2025-02-13 100252.png'
+import ruchda from '../assets/Screenshot 2025-02-13 100335.png'
+import sunya from '../assets/Screenshot 2025-02-13 100419.png'
+import charin from '../assets/Screenshot 2025-02-13 100517.png'
+import amunya from '../assets/Screenshot 2025-02-13 100543.png'
 
 interface Administrator {
   id: number;
